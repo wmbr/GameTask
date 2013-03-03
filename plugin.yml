@@ -1,0 +1,9 @@
+name: GameTask
+description: Runs console commands at specified world times
+main: com.github.stephengardner.gametask.GameTask
+version: 0.1
+author: Stephen Gardner
+commands:
+    gt:
+        description: GameTask main command
+        usage: /gt <command>

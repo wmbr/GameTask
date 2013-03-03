@@ -1,0 +1,21 @@
+GameTask:
+
+#  There are 24000 ticks to a day in Minecraft. Every second is 20 ticks.
+#  Day = 0
+#  Noon = 6000
+#  Night = 14000
+#  Dawn = 23000
+#
+#  Do not include slashes for commands. Template is as follows:
+#
+#  World name:
+#    Ticks: "Command"
+#    Ticks: "Command"
+#
+# EXAMPLE:
+#
+#  world:
+#    0: "say Good morning!"
+#    6000: "say Lunch time!"
+#    12000: "say Good evening."
+#    16000: "say Okaerinasai!"
