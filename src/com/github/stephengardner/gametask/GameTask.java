@@ -79,7 +79,11 @@ public class GameTask extends JavaPlugin {
 
 	private void loadTasks() {
 		ConfigurationSection worlds = getConfig().getConfigurationSection("GameTask");
-
+		if(worlds == null)
+		{
+			this.getLogger().info("No configuration entries found");
+			return;
+		}
 		for (String world : worlds.getKeys(false)) {
 			ConfigurationSection tasks = getConfig().getConfigurationSection("GameTask." + world);
 
